@@ -1,0 +1,56 @@
+{
+  "name": "shopping-server",
+  "version": "1.0.0",
+  "description": "购物商城后端(基于egg)",
+  "private": true,
+  "egg": {
+    "declarations": true
+  },
+  "dependencies": {
+    "await-stream-ready": "^1.0.1",
+    "dayjs": "^1.10.8",
+    "egg": "^2.15.1",
+    "egg-cors": "^2.2.3",
+    "egg-jwt": "^3.1.7",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0",
+    "egg-socket.io": "^4.1.6",
+    "js-md5": "^0.7.3",
+    "moment": "^2.29.1",
+    "socket.io-client": "^3.0.1",
+    "stream-wormhole": "^1.1.0"
+  },
+  "devDependencies": {
+    "autod": "^3.0.1",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.11.0",
+    "egg-ci": "^1.11.0",
+    "egg-mock": "^3.21.0",
+    "eslint": "^5.13.0",
+    "eslint-config-egg": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "egg-scripts start --daemon --title=egg-server-myqq-server --sticky",
+    "stop": "egg-scripts stop --title=egg-server-myqq-server",
+    "dev": "egg-bin dev --sticky",
+    "debug": "egg-bin debug",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "10"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "AX",
+  "license": "MIT"
+}

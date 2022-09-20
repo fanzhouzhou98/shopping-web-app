@@ -1,0 +1,61 @@
+.my {
+  width: 100vw;
+  height: 100vh;
+}
+.my .art .bg {
+  position: relative;
+  width: 100vw;
+  height: 260px;
+  background: #bbbff5;
+}
+.my .art .bg .userInfo {
+  width: 100vw;
+  height: 100px;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+}
+.my .art .bg .userInfo .nick-name {
+  height: 35px;
+  color: aliceblue;
+}
+.my .art .bg .userInfo .gender {
+  height: 35px;
+  color: aliceblue;
+}
+.my .share-list {
+  width: 95vw;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.my .share-list .share .share-user {
+  height: 50px;
+}
+.my .share-list .share .share-user .share-user-name {
+  font-size: 14px;
+  color: #292727;
+}
+.my .share-list .share .share-context {
+  width: 90vw;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #0f0f0f;
+}
+.my .share-list .share .share-imgs {
+  margin-top: 20px;
+}
+.my .share-list .share .share-imgs div {
+  width: 30vw;
+  margin-left: 10px;
+}
+.my .share-list .share .start {
+  position: relative;
+  height: 25px;
+}
+.my .share-list .share .start span {
+  position: absolute;
+  height: 25px;
+  width: 50px;
+  display: block;
+  right: 10px;
+}

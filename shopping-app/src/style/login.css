@@ -1,0 +1,43 @@
+.login-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fae9e9;
+}
+.login-page .nav-bar {
+  width: 100vw;
+  height: 50px;
+}
+.login-page .nav-bar .van-nav-bar {
+  width: 100vw;
+  height: 50px;
+  background-color: #71cdf8;
+}
+.login-page .login-box {
+  margin-top: 50px;
+  width: 100vw;
+}
+.login-page .login-box .avator-box {
+  width: 100vw;
+  height: 25vh;
+  text-align: center;
+}
+.login-page .login-box .form-box {
+  width: 98vw;
+  height: 150px;
+  margin: 0 auto;
+  line-height: 150px;
+}
+.login-page .login-box .form-box .van-form {
+  width: 70vw;
+  margin: 0 auto;
+  background-color: #fae9e9;
+}
+.login-page .login-box .form-box .van-form .van-field {
+  background-color: #fae9e9;
+}
+.login-page .login-box .btn-box {
+  width: 98vw;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}

@@ -1,0 +1,189 @@
+.detail {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  overflow-y: auto;
+  background-color: #e7effd;
+}
+.detail .van-nav-bar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: #71cdf8;
+}
+.detail .zw {
+  width: 100vw;
+  height: 50px;
+}
+.detail .swiper {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.detail .swiper .my-swipe {
+  height: 200px;
+}
+.detail .swiper .my-swipe .van-swipe-item {
+  height: 200;
+  color: #fff;
+  font-size: 20px;
+  line-height: 150px;
+  text-align: center;
+  background-color: #39a9ed;
+}
+.detail .swiper .my-swipe .van-swipe-item img {
+  width: 100vw;
+}
+.detail .goodsInfo {
+  margin: 0 auto;
+  width: 98vw;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.detail .goodsInfo .pirce {
+  margin: 5px 0 0 5px;
+  width: 95%;
+  line-height: 30px;
+  color: #ff0d2d;
+  font-size: 16px;
+}
+.detail .goodsInfo .pirce span {
+  font-size: 20px;
+}
+.detail .goodsInfo .goods-name {
+  margin: 5px 0 0 5px;
+  width: 95%;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #313030;
+  VERTICAL-ALIGN: top;
+  WORD-BREAK: break-all;
+  TEXT-ALIGN: left;
+}
+.detail .goodsInfo .description {
+  margin: 5px 0 0 5px;
+  width: 95%;
+  line-height: 30px;
+  font-size: 14px;
+  color: #313030;
+  VERTICAL-ALIGN: top;
+  WORD-BREAK: break-all;
+  TEXT-ALIGN: left;
+}
+.detail .goodsInfo .stock {
+  width: 98vw;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 5px 0 5px 5px;
+  color: #444647;
+}
+.detail .goodsInfo .count {
+  width: 98vw;
+  height: 30px;
+  margin: 0 0 5px 5px;
+}
+.detail .goodsInfo .count span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #444647;
+}
+.detail .goodsInfo .star {
+  margin: 20px 10px 0 0;
+  text-align: right;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.detail .goodsInfo .star span {
+  font-size: 14px;
+  color: #686969;
+}
+.detail .goodsSelect {
+  margin: 0 auto;
+  width: 98vw;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.detail .goodsCommentShow {
+  margin: 0 auto;
+  width: 98vw;
+  background-color: #fff;
+  border-radius: 13px;
+  margin-bottom: 15px;
+}
+.detail .goodsCommentShow .pj {
+  height: 35px;
+  line-height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 0 8px;
+}
+.detail .goodsCommentShow .ck {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 8px;
+  float: right;
+  color: #fc1a1a;
+}
+.detail .goodsCommentShow .comment-box {
+  width: 98vw;
+}
+.detail .goodsCommentShow .comment-box .user {
+  width: 95vw;
+  height: 50px;
+  margin: 10px 0 0 10px;
+}
+.detail .goodsCommentShow .comment-box .user .user-name {
+  height: 50px;
+  text-align: left;
+  color: #474849;
+  font-size: 14px;
+  margin: 10px;
+  line-height: 30px;
+}
+.detail .goodsCommentShow .comment-box .comment {
+  width: 98vw;
+  margin: 5px 0 0 10px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #313030;
+  VERTICAL-ALIGN: top;
+  WORD-BREAK: break-all;
+  TEXT-ALIGN: left;
+}
+.detail .goodsCommentShow .comment-box .time {
+  height: 20px;
+  width: 90vw;
+  margin: 0 auto;
+  text-align: right;
+  font-size: 12px;
+}
+.detail .goodsCommentShow .comment-box .rate {
+  width: 90vw;
+  margin: 0 auto;
+}
+.detail .goodsCommentShow .comment-box .rate span {
+  font-size: 12px;
+  color: #3d3c3c;
+}
+.detail .goodsCommentShow .no-comment {
+  width: 98vw;
+  height: 60px;
+}
+.detail .goodsCommentShow .no-comment h3 {
+  height: 50px;
+  line-height: 50px;
+  color: #414547;
+  text-align: center;
+}
+.detail .goodsImg {
+  width: 100vw;
+}
